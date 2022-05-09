@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="FullSignature">
+  <Class Name="ShopManagementSystem.SupplierClass">
+    <Position X="0.5" Y="4.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAEAAAAAAAAAgAAAAIAAAAAAAAA=</HashCode>
+      <FileName>SupplierClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShopManagementSystem.StockClass">
+    <Position X="11" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgQAAAI=</HashCode>
+      <FileName>StockClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShopManagementSystem.ProductClass">
+    <Position X="7.5" Y="4.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAQAAAAAACAAAAAgAAAAAABAIAAAQgAAAAIAAA=</HashCode>
+      <FileName>ProductClass.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="stock" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ShopManagementSystem.OrderClass">
+    <Position X="4.25" Y="4.25" Width="2.25" />
+    <AssociationLine Name="product" Type="ShopManagementSystem.ProductClass" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="5.188" />
+        <Point X="7.5" Y="5.188" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAgEAABABBACQAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OrderClass.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="product" />
+      <Field Name="customer" />
+      <Field Name="supplier" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ShopManagementSystem.IncomeExpenseClass">
+    <Position X="10.25" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAIBAAAAAAAAAAAACAAQCAgCAAgAAkAAAABA=</HashCode>
+      <FileName>IncomeExpenseClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShopManagementSystem.CustomerClass">
+    <Position X="3.75" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAgAAAQAAAAEAACAAAAAgAAAA=</HashCode>
+      <FileName>CustomerClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
